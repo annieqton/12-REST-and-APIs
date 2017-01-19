@@ -16,7 +16,6 @@
     }).then(
         data => {
           repos.all = data;
-          console.log(data);
           callback()
         });
   };
